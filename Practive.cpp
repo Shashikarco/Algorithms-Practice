@@ -11,7 +11,7 @@ void GetReversedarray(int arr[],int d,int n)
     {
         int temp;
         int j=0;
-        temp = arr[i];
+        temp = arr[0];
         for(j = 0 ; j<n-1;j++)
         {
            
@@ -27,6 +27,7 @@ void printArray(int arr[], int size)
     cout << arr[i] << " ";
 }
  
+
 /* Driver program to test above functions */
 int main()
 {

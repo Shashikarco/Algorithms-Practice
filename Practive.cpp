@@ -13,8 +13,7 @@ void GetReversedarray(int arr[],int d,int n)
         int j=0;
         temp = arr[0];
         for(j = 0 ; j<n-1;j++)
-        {
-           
+        {          
             arr[j] = arr[j+1];          
         }
         arr[j] = temp;
@@ -35,7 +34,7 @@ int main()
    int n = sizeof(arr) / sizeof(arr[0]);
     
    // Function calling
-   GetReversedarray(arr,2,n);
+   GetReversedarray(arr,3,n);
    //leftRotate(arr, 2, n);
    printArray(arr, n);
    std::cin.get();
